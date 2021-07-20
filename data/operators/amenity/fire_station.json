@@ -1,7 +1,13 @@
 {
   "properties": {
     "path": "operators/amenity/fire_station",
-    "exclude": {"generic": ["^fire station$"]}
+    "exclude": {
+      "generic": [
+        "^fire station$",
+        "^straż pożarna$"
+      ],
+      "named": ["^km psp|^zosp rp$"]
+    }
   },
   "items": [
     {
@@ -11,6 +17,15 @@
       "tags": {
         "amenity": "fire_station",
         "operator": "Alcaldía del Distrito Capital"
+      }
+    },
+    {
+      "displayName": "Ankara İtfaiyesi",
+      "id": "ankaraitfaiyesi-65f4f7",
+      "locationSet": {"include": ["tr"]},
+      "tags": {
+        "amenity": "fire_station",
+        "operator": "Ankara İtfaiyesi"
       }
     },
     {
@@ -58,6 +73,17 @@
         "operator": "Bedfordshire Fire and Rescue Service",
         "operator:wikidata": "Q4879248",
         "operator:wikipedia": "en:Bedfordshire Fire and Rescue Service"
+      }
+    },
+    {
+      "displayName": "Berliner Feuerwehr",
+      "id": "berlinerfeuerwehr-e05ec0",
+      "locationSet": {"include": ["de"]},
+      "tags": {
+        "amenity": "fire_station",
+        "operator": "Berliner Feuerwehr",
+        "operator:wikidata": "Q821517",
+        "operator:wikipedia": "de:Berliner Feuerwehr"
       }
     },
     {
@@ -683,6 +709,24 @@
       }
     },
     {
+      "displayName": "İstanbul İtfaiyesi",
+      "id": "istanbulitfaiyesi-65f4f7",
+      "locationSet": {"include": ["tr"]},
+      "tags": {
+        "amenity": "fire_station",
+        "operator": "İstanbul İtfaiyesi"
+      }
+    },
+    {
+      "displayName": "İzmir İtfaiyesi",
+      "id": "izmiritfaiyesi-65f4f7",
+      "locationSet": {"include": ["tr"]},
+      "tags": {
+        "amenity": "fire_station",
+        "operator": "İzmir İtfaiyesi"
+      }
+    },
+    {
       "displayName": "Kansas City Fire Department",
       "id": "kansascityfiredepartment-92f26a",
       "locationSet": {"include": ["us"]},
@@ -704,15 +748,6 @@
         "operator": "Kent Fire and Rescue Service",
         "operator:wikidata": "Q16995624",
         "operator:wikipedia": "en:Kent Fire and Rescue Service"
-      }
-    },
-    {
-      "displayName": "KM PSP Zielona Góra",
-      "id": "kmpspzielonagora-a9e71c",
-      "locationSet": {"include": ["pl"]},
-      "tags": {
-        "amenity": "fire_station",
-        "operator": "KM PSP Zielona Góra"
       }
     },
     {
@@ -901,8 +936,10 @@
     },
     {
       "displayName": "New York City Fire Department",
-      "id": "newyorkcityfiredepartment-92f26a",
-      "locationSet": {"include": ["us"]},
+      "id": "newyorkcityfiredepartment-6e1cf7",
+      "locationSet": {
+        "include": ["new_york_city.geojson"]
+      },
       "matchNames": [
         "fdny",
         "fire department of the city of new york",
@@ -1098,6 +1135,7 @@
       "displayName": "Państwowa Straż Pożarna",
       "id": "panstwowastrazpozarna-a9e71c",
       "locationSet": {"include": ["pl"]},
+      "matchNames": ["psp"],
       "tags": {
         "amenity": "fire_station",
         "operator": "Państwowa Straż Pożarna",
@@ -1112,6 +1150,17 @@
       "tags": {
         "amenity": "fire_station",
         "operator": "Policía de la Provincia de Misiones"
+      }
+    },
+    {
+      "displayName": "Portland Fire & Rescue",
+      "id": "portlandfireandrescue-92f26a",
+      "locationSet": {"include": ["us"]},
+      "tags": {
+        "amenity": "fire_station",
+        "operator": "Portland Fire & Rescue",
+        "operator:wikidata": "Q25001404",
+        "operator:wikipedia": "en:Portland Fire & Rescue"
       }
     },
     {
@@ -1761,6 +1810,15 @@
       }
     },
     {
+      "displayName": "SDIS 44",
+      "id": "sdis44-b36844",
+      "locationSet": {"include": ["fx"]},
+      "tags": {
+        "amenity": "fire_station",
+        "operator": "SDIS 44"
+      }
+    },
+    {
       "displayName": "SDIS 45",
       "id": "sdis45-b36844",
       "locationSet": {"include": ["fx"]},
@@ -1860,6 +1918,15 @@
       }
     },
     {
+      "displayName": "SDIS 61",
+      "id": "sdis61-f24dcc",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "amenity": "fire_station",
+        "operator": "SDIS 61"
+      }
+    },
+    {
       "displayName": "SDIS 62",
       "id": "sdis62-b36844",
       "locationSet": {"include": ["fx"]},
@@ -1941,6 +2008,15 @@
       }
     },
     {
+      "displayName": "SDIS 78",
+      "id": "sdis78-b36844",
+      "locationSet": {"include": ["fx"]},
+      "tags": {
+        "amenity": "fire_station",
+        "operator": "SDIS 78"
+      }
+    },
+    {
       "displayName": "SDIS 79",
       "id": "sdis79-b36844",
       "locationSet": {"include": ["fx"]},
@@ -1956,6 +2032,15 @@
       "tags": {
         "amenity": "fire_station",
         "operator": "SDIS 81"
+      }
+    },
+    {
+      "displayName": "SDIS 82",
+      "id": "sdis82-b36844",
+      "locationSet": {"include": ["fx"]},
+      "tags": {
+        "amenity": "fire_station",
+        "operator": "SDIS 82"
       }
     },
     {
@@ -2028,6 +2113,16 @@
       "tags": {
         "amenity": "fire_station",
         "operator": "SDIS 974"
+      }
+    },
+    {
+      "displayName": "SDMIS",
+      "id": "sdmis-b36844",
+      "locationSet": {"include": ["fx"]},
+      "matchNames": ["sdis 69"],
+      "tags": {
+        "amenity": "fire_station",
+        "operator": "SDMIS"
       }
     },
     {
@@ -2224,6 +2319,15 @@
       }
     },
     {
+      "displayName": "STIS 67",
+      "id": "stis67-b36844",
+      "locationSet": {"include": ["fx"]},
+      "tags": {
+        "amenity": "fire_station",
+        "operator": "STIS 67"
+      }
+    },
+    {
       "displayName": "Suffolk Fire and Rescue Service",
       "id": "suffolkfireandrescueservice-61f16b",
       "locationSet": {
@@ -2280,6 +2384,17 @@
       }
     },
     {
+      "displayName": "Tualatin Valley Fire and Rescue",
+      "id": "tualatinvalleyfireandrescue-92f26a",
+      "locationSet": {"include": ["us"]},
+      "tags": {
+        "amenity": "fire_station",
+        "operator": "Tualatin Valley Fire and Rescue",
+        "operator:wikidata": "Q16902012",
+        "operator:wikipedia": "en:Tualatin Valley Fire and Rescue"
+      }
+    },
+    {
       "displayName": "Tyne and Wear Fire and Rescue Service",
       "id": "tyneandwearfireandrescueservice-c946be",
       "locationSet": {
@@ -2310,6 +2425,17 @@
       "tags": {
         "amenity": "fire_station",
         "operator": "Vancouver Fire and Rescue Services"
+      }
+    },
+    {
+      "displayName": "Veiligheidsregio Groningen",
+      "id": "veiligheidsregiogroningen-0004ee",
+      "locationSet": {"include": ["nl"]},
+      "tags": {
+        "amenity": "fire_station",
+        "operator": "Veiligheidsregio Groningen",
+        "operator:wikidata": "Q2749099",
+        "operator:wikipedia": "nl:Veiligheidsregio Groningen"
       }
     },
     {
@@ -2616,15 +2742,6 @@
         "operator": "West Yorkshire Fire and Rescue Service",
         "operator:wikidata": "Q7987037",
         "operator:wikipedia": "en:West Yorkshire Fire and Rescue Service"
-      }
-    },
-    {
-      "displayName": "ZOSP RP",
-      "id": "zosprp-a9e71c",
-      "locationSet": {"include": ["pl"]},
-      "tags": {
-        "amenity": "fire_station",
-        "operator": "ZOSP RP"
       }
     },
     {

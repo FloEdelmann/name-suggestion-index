@@ -1,15 +1,19 @@
 {
   "_meta": {
-    "version": "5.0.20210421",
-    "generated": "2021-04-21T15:26:51.506Z",
+    "version": "6.0.20210719",
+    "generated": "2021-07-19T13:32:30.563Z",
     "url": "https://raw.githubusercontent.com/osmlab/name-suggestion-index/main/dist/replacements.json",
-    "hash": "58458d9ebffbf31aa68b574134d6d0f2"
+    "hash": "015e3f74d82d88b880e1b530320c56f5"
   },
   "replacements": {
     "Q945463": {
       "note": "Bonita - https://github.com/osmlab/name-suggestion-index/issues/2652",
       "wikidata": "Q892598",
       "wikipedia": "de:Bonita (Unternehmen)"
+    },
+    "Q95676208": {
+      "note": "MR.DIY - Wikidata redirect",
+      "wikidata": "Q105044323"
     },
     "Q87724264": {
       "note": "Syabuyo - Wikidata redirect",
@@ -41,6 +45,11 @@
       "note": "Isle of Wight Fire and Rescue Service (and Hampshire Fire and Rescue Service) have merged.",
       "wikidata": "Q106317911",
       "wikipedia": "en:Hampshire & Isle of Wight Fire and Rescue Service"
+    },
+    "Q6468871": {
+      "note": "Белкніга - Wikidata redirect",
+      "wikidata": "Q60793563",
+      "wikipedia": "be:Белкніга"
     },
     "Q56599145": {
       "note": "Steers - https://github.com/osmlab/name-suggestion-index/issues/3154",

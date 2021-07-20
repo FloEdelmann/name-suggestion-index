@@ -2,7 +2,7 @@
   "properties": {
     "path": "transit/route/bus",
     "exclude": {
-      "generic": ["^bus$", "no"],
+      "generic": ["^bus$", "^no$"],
       "named": [
         "^(campus|city|international|local|mtb|municipal|national|rail|regional|urban)$"
       ]
@@ -20,6 +20,15 @@
         "network:wikipedia": "de:Tarifverbund A-Welle",
         "route": "bus"
       }
+    },
+    {
+      "displayName": "AAATA",
+      "id": "aaata-7bebeb",
+      "locationSet": {
+        "include": ["001"],
+        "exclude": ["cn"]
+      },
+      "tags": {"network": "AAATA", "route": "bus"}
     },
     {
       "displayName": "Aachener Verkehrsverbund",
@@ -75,8 +84,10 @@
     },
     {
       "displayName": "Adelaide Metro",
-      "id": "adelaidemetro-95a292",
-      "locationSet": {"include": ["au"]},
+      "id": "adelaidemetro-1ef5ba",
+      "locationSet": {
+        "include": ["au-sa.geojson"]
+      },
       "tags": {
         "network": "Adelaide Metro",
         "network:wikidata": "Q4681753",
@@ -160,6 +171,15 @@
         "network": "Aix-en-Bus",
         "network:wikidata": "Q3537934",
         "network:wikipedia": "fr:Aix en bus",
+        "route": "bus"
+      }
+    },
+    {
+      "displayName": "AL_Huntsville",
+      "id": "alhuntsville-a45453",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "network": "AL_Huntsville",
         "route": "bus"
       }
     },
@@ -569,7 +589,7 @@
       "tags": {
         "network": "Apolo 7",
         "network:wikidata": "Q3456649",
-        "network:wikipedia": "fr:Réseau de bus Apolo7",
+        "network:wikipedia": "fr:Réseau de bus Apolo 7",
         "operator": "Société des transports du bassin chellois",
         "route": "bus"
       }
@@ -920,6 +940,15 @@
       "locationSet": {"include": ["es"]},
       "tags": {
         "network": "Autobuses Urbanos de Almería",
+        "route": "bus"
+      }
+    },
+    {
+      "displayName": "Autobuses Urbanos de Córdoba",
+      "id": "autobusesurbanosdecordoba-a45453",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "network": "Autobuses Urbanos de Córdoba",
         "route": "bus"
       }
     },
@@ -1312,17 +1341,6 @@
       }
     },
     {
-      "displayName": "BJBUS",
-      "id": "bjbus-a1f154",
-      "locationSet": {"include": ["cn"]},
-      "tags": {
-        "network": "BJBUS",
-        "network:wikidata": "Q4881181",
-        "network:wikipedia": "zh:北京公交",
-        "route": "bus"
-      }
-    },
-    {
       "displayName": "BKM",
       "id": "bkm-9340cc",
       "locationSet": {"include": ["pl"]},
@@ -1531,6 +1549,15 @@
       "matchNames": ["brescia mobilità spa"],
       "tags": {
         "network": "Brescia Mobilità",
+        "route": "bus"
+      }
+    },
+    {
+      "displayName": "Brighton",
+      "id": "brighton-a45453",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "network": "Brighton",
         "route": "bus"
       }
     },
@@ -1858,6 +1885,15 @@
       }
     },
     {
+      "displayName": "Campbell River Transit System",
+      "id": "campbellrivertransitsystem-a45453",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "network": "Campbell River Transit System",
+        "route": "bus"
+      }
+    },
+    {
       "displayName": "Cape Town IRT",
       "id": "capetownirt-4d0252",
       "locationSet": {"include": ["za"]},
@@ -1946,6 +1982,7 @@
       "tags": {
         "network": "Cars Région Ardèche",
         "network:wikidata": "Q102326302",
+        "network:wikipedia": "fr:Réseau interurbain de l'Ardèche",
         "route": "bus"
       }
     },
@@ -1967,6 +2004,7 @@
       "tags": {
         "network": "Cars Région Drôme",
         "network:wikidata": "Q102326423",
+        "network:wikipedia": "fr:Réseau interurbain de la Drôme",
         "route": "bus"
       }
     },
@@ -1977,7 +2015,7 @@
       "tags": {
         "network": "Cars Région Express",
         "network:wikidata": "Q14021675",
-        "network:wikipedia": "fr:Cars Région Express",
+        "network:wikipedia": "fr:Cars Région",
         "route": "bus"
       }
     },
@@ -2204,6 +2242,15 @@
       }
     },
     {
+      "displayName": "Chilliwack Transit System",
+      "id": "chilliwacktransitsystem-a45453",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "network": "Chilliwack Transit System",
+        "route": "bus"
+      }
+    },
+    {
       "displayName": "Choletbus",
       "id": "choletbus-add5eb",
       "locationSet": {"include": ["fx"]},
@@ -2281,6 +2328,15 @@
         "network": "Ciotabus",
         "network:wikidata": "Q16539909",
         "network:wikipedia": "fr:Ciotabus",
+        "route": "bus"
+      }
+    },
+    {
+      "displayName": "Citalis",
+      "id": "citalis-6f2389",
+      "locationSet": {"include": ["re"]},
+      "tags": {
+        "network": "Citalis",
         "route": "bus"
       }
     },
@@ -2373,6 +2429,15 @@
       }
     },
     {
+      "displayName": "Citybus Brixen",
+      "id": "citybusbrixen-ba987e",
+      "locationSet": {"include": ["it"]},
+      "tags": {
+        "network": "Citybus Brixen",
+        "route": "bus"
+      }
+    },
+    {
       "displayName": "CityBus Wörgl",
       "id": "citybusworgl-2dfba8",
       "locationSet": {"include": ["at"]},
@@ -2399,6 +2464,15 @@
       "tags": {
         "network": "Citylink",
         "operator": "Tranzit Coachlines",
+        "route": "bus"
+      }
+    },
+    {
+      "displayName": "Clallam Transit",
+      "id": "clallamtransit-a45453",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "network": "Clallam Transit",
         "route": "bus"
       }
     },
@@ -2567,6 +2641,15 @@
       }
     },
     {
+      "displayName": "Comox Valley Regional Transit System",
+      "id": "comoxvalleyregionaltransitsystem-a45453",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "network": "Comox Valley Regional Transit System",
+        "route": "bus"
+      }
+    },
+    {
       "displayName": "Conflans Achères",
       "id": "conflansacheres-add5eb",
       "locationSet": {"include": ["fx"]},
@@ -2715,6 +2798,15 @@
       }
     },
     {
+      "displayName": "Cowichan Valley Regional Transit System",
+      "id": "cowichanvalleyregionaltransitsystem-a45453",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "network": "Cowichan Valley Regional Transit System",
+        "route": "bus"
+      }
+    },
+    {
       "displayName": "CPT",
       "id": "cpt-ba987e",
       "locationSet": {"include": ["it"]},
@@ -2828,6 +2920,15 @@
       }
     },
     {
+      "displayName": "CTPI",
+      "id": "ctpi-7bebeb",
+      "locationSet": {
+        "include": ["001"],
+        "exclude": ["cn"]
+      },
+      "tags": {"network": "CTPI", "route": "bus"}
+    },
+    {
       "displayName": "CTRL",
       "id": "ctrl-add5eb",
       "locationSet": {"include": ["fx"]},
@@ -2878,6 +2979,16 @@
         "network": "Culver CityBus",
         "network:wikidata": "Q5193719",
         "network:wikipedia": "en:Culver CityBus",
+        "route": "bus"
+      }
+    },
+    {
+      "displayName": "CVTD",
+      "id": "cvtd-a21cc9",
+      "locationSet": {"include": ["us"]},
+      "tags": {
+        "network": "CVTD",
+        "operator": "Cache Valley Transit District",
         "route": "bus"
       }
     },
@@ -3587,6 +3698,17 @@
       }
     },
     {
+      "displayName": "évolitY",
+      "id": "evolity-add5eb",
+      "locationSet": {"include": ["fx"]},
+      "tags": {
+        "network": "évolitY",
+        "network:wikidata": "Q2989891",
+        "network:wikipedia": "fr:Transports en commun de Montbéliard",
+        "route": "bus"
+      }
+    },
+    {
       "displayName": "EW Bus",
       "id": "ewbus-3b9544",
       "locationSet": {"include": ["de"]},
@@ -3829,11 +3951,31 @@
       "tags": {"network": "FAST", "route": "bus"}
     },
     {
+      "displayName": "FAX",
+      "id": "fax-a21cc9",
+      "locationSet": {"include": ["us"]},
+      "tags": {
+        "network": "FAX",
+        "network:wikidata": "Q5503159",
+        "network:wikipedia": "en:Fresno Area Express",
+        "route": "bus"
+      }
+    },
+    {
       "displayName": "FBT (Fédération El Bir pour le Transport)",
       "id": "fbtfederationelbirpourletransport-037b1d",
       "locationSet": {"include": ["mr"]},
       "tags": {
         "network": "FBT (Fédération El Bir pour le Transport)",
+        "route": "bus"
+      }
+    },
+    {
+      "displayName": "Fervima",
+      "id": "fervima-a45453",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "network": "Fervima",
         "route": "bus"
       }
     },
@@ -4036,6 +4178,12 @@
       }
     },
     {
+      "displayName": "G-Bus",
+      "id": "gbus-776068",
+      "locationSet": {"include": ["kr"]},
+      "tags": {"network": "G-Bus", "route": "bus"}
+    },
+    {
       "displayName": "GATRA",
       "id": "gatra-a21cc9",
       "locationSet": {"include": ["us"]},
@@ -4081,6 +4229,17 @@
         "network": "GBT",
         "network:wikidata": "Q5600471",
         "network:wikipedia": "en:Greater Bridgeport Transit Authority",
+        "route": "bus"
+      }
+    },
+    {
+      "displayName": "GDRTA",
+      "id": "gdrta-a21cc9",
+      "locationSet": {"include": ["us"]},
+      "tags": {
+        "network": "GDRTA",
+        "network:wikidata": "Q5600523",
+        "network:wikipedia": "en:Greater Dayton Regional Transit Authority",
         "route": "bus"
       }
     },
@@ -4287,6 +4446,15 @@
         "network": "Grand'R",
         "network:wikidata": "Q3456683",
         "network:wikipedia": "fr:Réseau de bus Grand R",
+        "route": "bus"
+      }
+    },
+    {
+      "displayName": "Grays Harbor Transit",
+      "id": "graysharbortransit-a45453",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "network": "Grays Harbor Transit",
         "route": "bus"
       }
     },
@@ -4535,6 +4703,15 @@
         "network": "Hamilton Street Railway",
         "network:wikidata": "Q3126462",
         "network:wikipedia": "en:Hamilton Street Railway",
+        "route": "bus"
+      }
+    },
+    {
+      "displayName": "Hanoibus",
+      "id": "hanoibus-2c1b52",
+      "locationSet": {"include": ["vn"]},
+      "tags": {
+        "network": "Hanoibus",
         "route": "bus"
       }
     },
@@ -4815,6 +4992,12 @@
       }
     },
     {
+      "displayName": "IDZK",
+      "id": "idzk-a45453",
+      "locationSet": {"include": ["001"]},
+      "tags": {"network": "IDZK", "route": "bus"}
+    },
+    {
       "displayName": "IJssel-Vecht",
       "id": "ijsselvecht-2f3200",
       "locationSet": {"include": ["nl"]},
@@ -4931,6 +5114,15 @@
       }
     },
     {
+      "displayName": "Intermunicipal Urbano",
+      "id": "intermunicipalurbano-a45453",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "network": "Intermunicipal Urbano",
+        "route": "bus"
+      }
+    },
+    {
       "displayName": "Internorte (Rio de Janeiro)",
       "id": "internorte-2ef076",
       "locationSet": {"include": ["br"]},
@@ -4985,8 +5177,10 @@
     },
     {
       "displayName": "IOW",
-      "id": "iow-8e0970",
-      "locationSet": {"include": ["gb"]},
+      "id": "iow-cab8bc",
+      "locationSet": {
+        "include": ["gb-iow.geojson"]
+      },
       "tags": {"network": "IOW", "route": "bus"}
     },
     {
@@ -5051,8 +5245,10 @@
     },
     {
       "displayName": "Isle of Wight",
-      "id": "isleofwight-8e0970",
-      "locationSet": {"include": ["gb"]},
+      "id": "isleofwight-cab8bc",
+      "locationSet": {
+        "include": ["gb-iow.geojson"]
+      },
       "tags": {
         "network": "Isle of Wight",
         "route": "bus"
@@ -5088,6 +5284,15 @@
         "operator": "LibertyBus",
         "operator:wikidata": "Q6541546",
         "operator:wikipedia": "en:LibertyBus",
+        "route": "bus"
+      }
+    },
+    {
+      "displayName": "Jefferson Transit",
+      "id": "jeffersontransit-a45453",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "network": "Jefferson Transit",
         "route": "bus"
       }
     },
@@ -5149,6 +5354,15 @@
       }
     },
     {
+      "displayName": "Kamloops Transit System",
+      "id": "kamloopstransitsystem-a45453",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "network": "Kamloops Transit System",
+        "route": "bus"
+      }
+    },
+    {
       "displayName": "Karlsruher Verkehrsverbund",
       "id": "karlsruherverkehrsverbund-3b9544",
       "locationSet": {"include": ["de"]},
@@ -5189,6 +5403,15 @@
       }
     },
     {
+      "displayName": "Kauno m. savivaldybė",
+      "id": "kaunomsavivaldybe-393f24",
+      "locationSet": {"include": ["lt"]},
+      "tags": {
+        "network": "Kauno m. savivaldybė",
+        "route": "bus"
+      }
+    },
+    {
       "displayName": "Kayseri Ulaşım A.Ş.",
       "id": "kayseriulasimas-8150d4",
       "locationSet": {"include": ["tr"]},
@@ -5205,6 +5428,15 @@
         "network": "KCATA",
         "network:wikidata": "Q6364652",
         "network:wikipedia": "en:Kansas City Area Transportation Authority",
+        "route": "bus"
+      }
+    },
+    {
+      "displayName": "Kelowna Regional Transit System",
+      "id": "kelownaregionaltransitsystem-a45453",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "network": "Kelowna Regional Transit System",
         "route": "bus"
       }
     },
@@ -5923,8 +6155,10 @@
     },
     {
       "displayName": "London Buses",
-      "id": "londonbuses-e094f5",
-      "locationSet": {"include": ["gb-eng"]},
+      "id": "londonbuses-3a83f8",
+      "locationSet": {
+        "include": ["gb-lon.geojson"]
+      },
       "tags": {
         "network": "London Buses",
         "network:wikidata": "Q1192411",
@@ -6098,6 +6332,15 @@
       "id": "macau-21ba55",
       "locationSet": {"include": ["cn", "mo"]},
       "tags": {"network": "Macau", "route": "bus"}
+    },
+    {
+      "displayName": "Madison Metro Transit",
+      "id": "madisonmetrotransit-a45453",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "network": "Madison Metro Transit",
+        "route": "bus"
+      }
     },
     {
       "displayName": "Maelis",
@@ -6305,8 +6548,10 @@
     },
     {
       "displayName": "MBTA",
-      "id": "mbta-a21cc9",
-      "locationSet": {"include": ["us"]},
+      "id": "mbta-e17ae4",
+      "locationSet": {
+        "include": [[-71, 42, 100]]
+      },
       "matchNames": [
         "massachusetts bay transportation authority"
       ],
@@ -6998,6 +7243,15 @@
       }
     },
     {
+      "displayName": "MobiVie",
+      "id": "mobivie-a45453",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "network": "MobiVie",
+        "route": "bus"
+      }
+    },
+    {
       "displayName": "monbus",
       "id": "monbus-20b116",
       "locationSet": {"include": ["ci"]},
@@ -7045,6 +7299,15 @@
         "network": "Moohv87",
         "network:wikidata": "Q3128519",
         "network:wikipedia": "fr:Moohv 87",
+        "route": "bus"
+      }
+    },
+    {
+      "displayName": "morebus",
+      "id": "morebus-a45453",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "network": "morebus",
         "route": "bus"
       }
     },
@@ -7150,6 +7413,12 @@
         "network:wikipedia": "en:Monterey–Salinas Transit",
         "route": "bus"
       }
+    },
+    {
+      "displayName": "MTA",
+      "id": "mta-a21cc9",
+      "locationSet": {"include": ["us"]},
+      "tags": {"network": "MTA", "route": "bus"}
     },
     {
       "displayName": "MTA Commuter Bus",
@@ -7768,8 +8037,10 @@
     },
     {
       "displayName": "NYC Transit",
-      "id": "nyctransit-a21cc9",
-      "locationSet": {"include": ["us"]},
+      "id": "nyctransit-c586de",
+      "locationSet": {
+        "include": ["new_york_city.geojson"]
+      },
       "tags": {
         "network": "NYC Transit",
         "network:wikidata": "Q1325591",
@@ -8165,6 +8436,15 @@
       }
     },
     {
+      "displayName": "Pacific Transit System",
+      "id": "pacifictransitsystem-a45453",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "network": "Pacific Transit System",
+        "route": "bus"
+      }
+    },
+    {
       "displayName": "Paikku",
       "id": "paikku-3d6501",
       "locationSet": {"include": ["fi"]},
@@ -8276,12 +8556,6 @@
       }
     },
     {
-      "displayName": "PAT",
-      "id": "pat-a21cc9",
-      "locationSet": {"include": ["us"]},
-      "tags": {"network": "PAT", "route": "bus"}
-    },
-    {
       "displayName": "Pays Créçois",
       "id": "payscrecois-add5eb",
       "locationSet": {"include": ["fx"]},
@@ -8352,6 +8626,15 @@
       }
     },
     {
+      "displayName": "Péribus",
+      "id": "peribus-add5eb",
+      "locationSet": {"include": ["fx"]},
+      "tags": {
+        "network": "Péribus",
+        "route": "bus"
+      }
+    },
+    {
       "displayName": "Peterborough Transit",
       "id": "peterboroughtransit-50b470",
       "locationSet": {"include": ["ca"]},
@@ -8359,6 +8642,19 @@
         "network": "Peterborough Transit",
         "network:wikidata": "Q7178037",
         "network:wikipedia": "en:Peterborough Transit",
+        "route": "bus"
+      }
+    },
+    {
+      "displayName": "Petersburg Area Transit",
+      "id": "petersburgareatransit-672bb2",
+      "locationSet": {
+        "include": [[-77.4039, 37.2269, 10]]
+      },
+      "matchNames": ["pat"],
+      "tags": {
+        "network": "Petersburg Area Transit",
+        "network:wikidata": "Q7178176",
         "route": "bus"
       }
     },
@@ -8501,6 +8797,15 @@
       }
     },
     {
+      "displayName": "PKS w Brzegu Sp. z o.o.",
+      "id": "pkswbrzeguspzoo-9340cc",
+      "locationSet": {"include": ["pl"]},
+      "tags": {
+        "network": "PKS w Brzegu Sp. z o.o.",
+        "route": "bus"
+      }
+    },
+    {
       "displayName": "Plaine de Versailles",
       "id": "plainedeversailles-add5eb",
       "locationSet": {"include": ["fx"]},
@@ -8555,6 +8860,20 @@
       "id": "pori-3d6501",
       "locationSet": {"include": ["fi"]},
       "tags": {"network": "Pori", "route": "bus"}
+    },
+    {
+      "displayName": "Port Authority of Allegheny County",
+      "id": "portauthorityofalleghenycounty-1319b8",
+      "locationSet": {
+        "include": [[-80, 40.5, 35]]
+      },
+      "matchNames": ["pat"],
+      "tags": {
+        "network": "Port Authority of Allegheny County",
+        "network:short": "PAAC",
+        "network:wikidata": "Q7230500",
+        "route": "bus"
+      }
     },
     {
       "displayName": "Posadas",
@@ -8622,6 +8941,28 @@
         "network": "Preston Bus",
         "network:wikidata": "Q7241839",
         "network:wikipedia": "en:Preston Bus",
+        "route": "bus"
+      }
+    },
+    {
+      "displayName": "Prince Albert Transit",
+      "id": "princealberttransit-768699",
+      "locationSet": {
+        "include": [[-105.75, 53.195, 10]]
+      },
+      "matchNames": ["pat"],
+      "tags": {
+        "network": "Prince Albert Transit",
+        "network:wikidata": "Q7243789",
+        "route": "bus"
+      }
+    },
+    {
+      "displayName": "Prince George Transit System",
+      "id": "princegeorgetransitsystem-a45453",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "network": "Prince George Transit System",
         "route": "bus"
       }
     },
@@ -8710,8 +9051,10 @@
     },
     {
       "displayName": "PTV - Metropolitan Buses",
-      "id": "ptvmetropolitanbuses-95a292",
-      "locationSet": {"include": ["au"]},
+      "id": "ptvmetropolitanbuses-858cd7",
+      "locationSet": {
+        "include": ["au-vic.geojson"]
+      },
       "tags": {
         "network": "PTV - Metropolitan Buses",
         "network:wikidata": "Q7257648",
@@ -8761,15 +9104,6 @@
       "locationSet": {"include": ["au"]},
       "tags": {
         "network": "PTV - Warrnambool Buses",
-        "route": "bus"
-      }
-    },
-    {
-      "displayName": "PTV – Metropolitan Buses",
-      "id": "50826a-95a292",
-      "locationSet": {"include": ["au"]},
-      "tags": {
-        "network": "PTV – Metropolitan Buses",
         "route": "bus"
       }
     },
@@ -9058,6 +9392,15 @@
       }
     },
     {
+      "displayName": "Regional District of Nanaimo Transit System",
+      "id": "regionaldistrictofnanaimotransitsystem-a45453",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "network": "Regional District of Nanaimo Transit System",
+        "route": "bus"
+      }
+    },
+    {
       "displayName": "Regionalbus Augsburg",
       "id": "regionalbusaugsburg-3b9544",
       "locationSet": {"include": ["de"]},
@@ -9149,6 +9492,15 @@
       "locationSet": {"include": ["fx"]},
       "tags": {
         "network": "Réseau Interurbain de Rambouillet",
+        "route": "bus"
+      }
+    },
+    {
+      "displayName": "Réseau interurbain Nouvelle-Aquitaine",
+      "id": "reseauinterurbainnouvelleaquitaine-a45453",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "network": "Réseau interurbain Nouvelle-Aquitaine",
         "route": "bus"
       }
     },
@@ -9453,6 +9805,26 @@
         "network": "Rock Region Metro",
         "network:wikidata": "Q5060353",
         "network:wikipedia": "en:Rock Region Metro",
+        "route": "bus"
+      }
+    },
+    {
+      "displayName": "Rodoviária de Lisboa",
+      "id": "rodoviariadelisboa-d8d67b",
+      "locationSet": {"include": ["pt"]},
+      "tags": {
+        "network": "Rodoviária de Lisboa",
+        "network:wikidata": "Q1396193",
+        "network:wikipedia": "pt:Rodoviária de Lisboa",
+        "route": "bus"
+      }
+    },
+    {
+      "displayName": "Rodoviário",
+      "id": "rodoviario-a45453",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "network": "Rodoviário",
         "route": "bus"
       }
     },
@@ -10442,6 +10814,17 @@
       }
     },
     {
+      "displayName": "Skybus",
+      "id": "skybus-4d26c5",
+      "locationSet": {"include": ["au", "nz"]},
+      "tags": {
+        "network": "Skybus",
+        "network:wikidata": "Q7537617",
+        "network:wikipedia": "en:SkyBus (airport bus)",
+        "route": "bus"
+      }
+    },
+    {
       "displayName": "Skyss",
       "id": "skyss-b52e0f",
       "locationSet": {"include": ["no"]},
@@ -10641,6 +11024,15 @@
         "network:wikipedia": "en:Sound Transit Express",
         "operator:wikidata": "Q3965367",
         "operator:wikipedia": "en:Sound Transit",
+        "route": "bus"
+      }
+    },
+    {
+      "displayName": "South Okanagan-Similkameen Transit System",
+      "id": "southokanagansimilkameentransitsystem-a45453",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "network": "South Okanagan-Similkameen Transit System",
         "route": "bus"
       }
     },
@@ -11127,6 +11519,15 @@
       }
     },
     {
+      "displayName": "STT Guarulhos",
+      "id": "sttguarulhos-2ef076",
+      "locationSet": {"include": ["br"]},
+      "tags": {
+        "network": "STT Guarulhos",
+        "route": "bus"
+      }
+    },
+    {
       "displayName": "STTR",
       "id": "sttr-50b470",
       "locationSet": {"include": ["ca"]},
@@ -11214,12 +11615,28 @@
       }
     },
     {
-      "displayName": "Sun Tran",
-      "id": "suntran-a21cc9",
-      "locationSet": {"include": ["us"]},
-      "note": "Sun Tran may refer to the bus service in Tucson, Arizona or St. George, Utah. They should be split.",
+      "displayName": "Sun Tran (St. George)",
+      "id": "suntran-883794",
+      "locationSet": {
+        "include": [[-113.6, 37.1]]
+      },
       "tags": {
         "network": "Sun Tran",
+        "network:wikidata": "Q19878145",
+        "network:wikipedia": "en:SunTran (St. George)",
+        "route": "bus"
+      }
+    },
+    {
+      "displayName": "Sun Tran (Tucson)",
+      "id": "suntran-6f8998",
+      "locationSet": {
+        "include": ["tucson.geojson"]
+      },
+      "tags": {
+        "network": "Sun Tran",
+        "network:wikidata": "Q7638551",
+        "network:wikipedia": "en:Sun Tran",
         "route": "bus"
       }
     },
@@ -11381,6 +11798,12 @@
         "network:wikipedia": "fr:Transport en Moselle et Madon",
         "route": "bus"
       }
+    },
+    {
+      "displayName": "T2C",
+      "id": "t2c-add5eb",
+      "locationSet": {"include": ["fx"]},
+      "tags": {"network": "T2C", "route": "bus"}
     },
     {
       "displayName": "TAC",
@@ -11889,6 +12312,15 @@
       "tags": {"network": "TfGM", "route": "bus"}
     },
     {
+      "displayName": "Thane Muncipal Transport",
+      "id": "thanemuncipaltransport-a45453",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "network": "Thane Muncipal Transport",
+        "route": "bus"
+      }
+    },
+    {
       "displayName": "Thau Agglo Transport",
       "id": "thauagglotransport-add5eb",
       "locationSet": {"include": ["fx"]},
@@ -11899,8 +12331,10 @@
     },
     {
       "displayName": "The Buses of Somerset",
-      "id": "thebusesofsomerset-e094f5",
-      "locationSet": {"include": ["gb-eng"]},
+      "id": "thebusesofsomerset-58e71b",
+      "locationSet": {
+        "include": ["gb-som.geojson"]
+      },
       "tags": {
         "network": "The Buses of Somerset",
         "network:wikidata": "Q17018973",
@@ -12157,6 +12591,15 @@
         "network": "TPER",
         "network:wikidata": "Q3997843",
         "network:wikipedia": "it:Trasporto Passeggeri Emilia-Romagna",
+        "route": "bus"
+      }
+    },
+    {
+      "displayName": "TPG XG-642: Metropolitano de Ferrol",
+      "id": "tpgxg642metropolitanodeferrol-a45453",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "network": "TPG XG-642: Metropolitano de Ferrol",
         "route": "bus"
       }
     },
@@ -12533,6 +12976,17 @@
       }
     },
     {
+      "displayName": "Transportes Sul do Tejo",
+      "id": "transportessuldotejo-d8d67b",
+      "locationSet": {"include": ["pt"]},
+      "tags": {
+        "network": "Transportes Sul do Tejo",
+        "network:wikidata": "Q2449659",
+        "network:wikipedia": "pt:Transportes Sul do Tejo",
+        "route": "bus"
+      }
+    },
+    {
       "displayName": "Transports 64",
       "id": "transports64-add5eb",
       "locationSet": {"include": ["fx"]},
@@ -12608,6 +13062,15 @@
         "network": "Transurb",
         "network:wikidata": "Q3997541",
         "network:wikipedia": "ro:Transportul public în municipiul Galați",
+        "route": "bus"
+      }
+    },
+    {
+      "displayName": "Transviles",
+      "id": "transviles-a45453",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "network": "Transviles",
         "route": "bus"
       }
     },
@@ -12936,6 +13399,15 @@
         "network:wikipedia": "fr:Txik Txak",
         "route": "bus"
       }
+    },
+    {
+      "displayName": "UCF",
+      "id": "ucf-7bebeb",
+      "locationSet": {
+        "include": ["001"],
+        "exclude": ["cn"]
+      },
+      "tags": {"network": "UCF", "route": "bus"}
     },
     {
       "displayName": "UCT",
@@ -13516,6 +13988,17 @@
       }
     },
     {
+      "displayName": "Verkehrsverbund Mittelschwaben",
+      "id": "verkehrsverbundmittelschwaben-3b9544",
+      "locationSet": {"include": ["de"]},
+      "tags": {
+        "network": "Verkehrsverbund Mittelschwaben",
+        "network:wikidata": "Q1758268",
+        "network:wikipedia": "de:Verkehrsverbund Mittelschwaben",
+        "route": "bus"
+      }
+    },
+    {
       "displayName": "Verkehrsverbund Neckar-Alb-Donau",
       "id": "verkehrsverbundneckaralbdonau-3b9544",
       "locationSet": {"include": ["de"]},
@@ -13718,6 +14201,15 @@
       }
     },
     {
+      "displayName": "Vernon Regional Transit System",
+      "id": "vernonregionaltransitsystem-a45453",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "network": "Vernon Regional Transit System",
+        "route": "bus"
+      }
+    },
+    {
       "displayName": "Veszprém helyijárat",
       "id": "veszpremhelyijarat-6ba633",
       "locationSet": {"include": ["hu"]},
@@ -13795,6 +14287,15 @@
         "network": "VIA",
         "network:wikidata": "Q7906973",
         "network:wikipedia": "en:VIA Metropolitan Transit",
+        "route": "bus"
+      }
+    },
+    {
+      "displayName": "Victoria Regional Transit System",
+      "id": "victoriaregionaltransitsystem-a45453",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "network": "Victoria Regional Transit System",
         "route": "bus"
       }
     },
@@ -14058,6 +14559,17 @@
       }
     },
     {
+      "displayName": "VT (Wisconsin)",
+      "id": "vt-a21cc9",
+      "locationSet": {"include": ["us"]},
+      "tags": {
+        "network": "VT",
+        "network:wikidata": "Q7912245",
+        "network:wikipedia": "en:Valley Transit (Wisconsin)",
+        "route": "bus"
+      }
+    },
+    {
       "displayName": "VTA (Martha's Vineyard Transit Authority)",
       "id": "vta-51aae1",
       "locationSet": {
@@ -14131,6 +14643,12 @@
         "network:wikipedia": "en:Victor Valley Transit Authority",
         "route": "bus"
       }
+    },
+    {
+      "displayName": "VVV",
+      "id": "vvv-a45453",
+      "locationSet": {"include": ["001"]},
+      "tags": {"network": "VVV", "route": "bus"}
     },
     {
       "displayName": "VVW",
@@ -14236,6 +14754,15 @@
       }
     },
     {
+      "displayName": "West Kootenay Transit System",
+      "id": "westkootenaytransitsystem-a45453",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "network": "West Kootenay Transit System",
+        "route": "bus"
+      }
+    },
+    {
       "displayName": "West Sussex",
       "id": "westsussex-8e0970",
       "locationSet": {"include": ["gb"]},
@@ -14294,7 +14821,16 @@
       "tags": {
         "network": "Wheels",
         "network:wikidata": "Q7950139",
-        "network:wikipedia": "en:WHEELS (California)",
+        "network:wikipedia": "en:Wheels (California)",
+        "route": "bus"
+      }
+    },
+    {
+      "displayName": "Whistler Transit System",
+      "id": "whistlertransitsystem-a45453",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "network": "Whistler Transit System",
         "route": "bus"
       }
     },
@@ -15021,6 +15557,15 @@
       }
     },
     {
+      "displayName": "Междугородние маршруты",
+      "id": "afb334-a45453",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "network": "Междугородние маршруты",
+        "route": "bus"
+      }
+    },
+    {
       "displayName": "Міський громадський транспорт Маріуполя",
       "id": "28b69f-501b9c",
       "locationSet": {"include": ["ua"]},
@@ -15235,6 +15780,12 @@
       }
     },
     {
+      "displayName": "上海公交",
+      "id": "03182b-a1f154",
+      "locationSet": {"include": ["cn"]},
+      "tags": {"network": "上海公交", "route": "bus"}
+    },
+    {
       "displayName": "九巴龍運 KMB & LW",
       "id": "95ad00-5398e8",
       "locationSet": {"include": ["hk"]},
@@ -15335,11 +15886,12 @@
     },
     {
       "displayName": "北京公交",
-      "id": "beijingbus-a1f154",
+      "id": "beijingpublictransport-a1f154",
       "locationSet": {"include": ["cn"]},
+      "matchNames": ["bjbus"],
       "tags": {
         "network": "北京公交",
-        "network:en": "Beijing Bus",
+        "network:en": "Beijing Public Transport",
         "network:wikidata": "Q4881181",
         "network:wikipedia": "zh:北京公交",
         "route": "bus"
@@ -15546,6 +16098,12 @@
       }
     },
     {
+      "displayName": "广州公交",
+      "id": "ba0809-a1f154",
+      "locationSet": {"include": ["cn"]},
+      "tags": {"network": "广州公交", "route": "bus"}
+    },
+    {
       "displayName": "新北市公車",
       "id": "b4a974-a4fa75",
       "locationSet": {"include": ["tw"]},
@@ -15652,8 +16210,24 @@
       "tags": {"network": "池田市内線", "route": "bus"}
     },
     {
+      "displayName": "济南公交",
+      "id": "a3d575-a1f154",
+      "locationSet": {"include": ["cn"]},
+      "tags": {
+        "network": "济南公交",
+        "network:wikidata": "Q11148162",
+        "network:wikipedia": "zh:济南公交",
+        "network:zh": "济南公交",
+        "operator": "济南市公共交通总公司",
+        "operator:wikidata": "Q11148174",
+        "operator:wikipedia": "zh:济南市公共交通总公司",
+        "operator:zh": "济南市公共交通总公司",
+        "route": "bus"
+      }
+    },
+    {
       "displayName": "济南公交——济南公交公司",
-      "id": "f9ccee-a1f154",
+      "id": "61a138-a1f154",
       "locationSet": {"include": ["cn"]},
       "tags": {
         "network": "济南公交——济南公交公司",

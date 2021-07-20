@@ -109,6 +109,26 @@
       }
     },
     {
+      "displayName": "Superbet",
+      "id": "superbet-75c28e",
+      "locationSet": {"include": ["ro"]},
+      "tags": {
+        "brand": "Superbet",
+        "name": "Superbet",
+        "shop": "bookmaker"
+      }
+    },
+    {
+      "displayName": "TAB",
+      "id": "tab-176a37",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "brand": "TAB",
+        "name": "TAB",
+        "shop": "bookmaker"
+      }
+    },
+    {
       "displayName": "Tipico",
       "id": "tipico-7054e9",
       "locationSet": {

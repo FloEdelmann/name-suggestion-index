@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "version": "5.0.20210421",
-    "generated": "2021-04-21T15:26:52.845Z",
+    "version": "6.0.20210719",
+    "generated": "2021-07-19T13:32:34.450Z",
     "url": "https://raw.githubusercontent.com/osmlab/name-suggestion-index/main/dist/dissolved.json",
-    "hash": "1b8325d5db3f00c03c701449ea6f8437"
+    "hash": "ae7c543c833bef28af8dcec71a5721fd"
   },
   "dissolved": {
     "21d03b-98e651": [{"date": "2013-01-01T00:00:00.000Z"}],
@@ -66,9 +66,6 @@
     "charlesvogele-900aa6": [{"date": "2018-01-01T00:00:00.000Z"}],
     "citycarshare-ed8a5d": [{"date": "2016-11-01T00:00:00.000Z", "upgrade": "Q5554388"}],
     "comercialmexicana-9b2dfb": [{"date": "2015-01-28T00:00:00.000Z"}],
-    "corpoforestaledellostato-f71f16": [
-      {"date": "2016-12-31T00:00:00.000Z", "upgrade": "Q24936183"}
-    ],
     "d6f3ca-10b077": [{"date": "2019-01-01T00:00:00.000Z"}],
     "dia-986a24": [{"date": "2018-07-13T00:00:00.000Z"}],
     "diaandgo-4d6b4b": [{"date": "2018-07-13T00:00:00.000Z"}],
@@ -86,12 +83,14 @@
     "hollandblumenmark-bec75c": [{"date": "2014-10-01T00:00:00.000Z"}],
     "intertoys-741056": [{"date": "2019-02-21T00:00:00.000Z"}],
     "jernbaneverket-476d58": [{"date": "2016-12-31T00:00:00.000Z", "upgrade": "Q25430233"}],
+    "kandmelektronik-8969c7": [{"date": "2013-03-07T00:00:00.000Z"}],
     "kinkiosakabank-52efab": [{"date": "2019-03-31T00:00:00.000Z"}],
     "kinkiosakabank-d7a9e7": [{"date": "2019-03-31T00:00:00.000Z"}],
     "lahalleauxchaussures-c57706": [{"date": "2019-01-31T00:00:00.000Z"}],
     "lila-add5eb": [{"date": "2019-01-01T00:00:00.000Z", "upgrade": "Q65156365"}],
     "lila-db7894": [{"date": "2019-01-01T00:00:00.000Z", "upgrade": "Q65156365"}],
     "maplin-6506bb": [{"date": "2018-06-25T00:00:00.000Z"}],
+    "marktkauf-0a839e": [{"date": "2006-01-01T00:00:00.000Z"}],
     "maxidia-0513f1": [{"date": "2018-07-13T00:00:00.000Z"}],
     "metrowestyorkshire-c3b96b": [{"date": "2014-04-01T00:00:00.000Z"}],
     "metrowestyorkshire-e094f5": [{"date": "2014-04-01T00:00:00.000Z"}],
@@ -104,12 +103,15 @@
     "papyrus-43d507": [{"date": "2020-01-01T00:00:00.000Z"}],
     "phillycarshare-ed8a5d": [{"date": "2014-01-01T00:00:00.000Z"}],
     "poundworld-d988bd": [{"date": "2018-08-10T00:00:00.000Z"}],
-    "praktiker-27405b": [{"date": "2014-01-01T00:00:00.000Z"}],
+    "praktiker-573a37": [{"date": "2014-01-01T00:00:00.000Z"}],
+    "runnerspoint-0833e2": [{"date": "2020-01-01T00:00:00.000Z"}],
     "shopko-592fe0": [{"date": "2019-06-23T00:00:00.000Z"}],
     "shoppersstop-d45fb2": [{"date": "2019-06-23T00:00:00.000Z"}],
     "siwa-5dea79": [{"date": "2017-01-01T00:00:00.000Z"}],
     "specialtys-4d2ff4": [{"date": "2020-05-19T00:00:00.000Z"}],
     "statravel-9aaf3f": [{"date": "2020-08-21T00:00:00.000Z"}],
+    "tachongcommercialbank-47d9e2": [{"date": "2018-01-01T00:00:00.000Z"}],
+    "tachongcommercialbank-9a6797": [{"date": "2018-01-01T00:00:00.000Z"}],
     "terbourgogne-46b9eb": [{"date": "2017-01-01T00:00:00.000Z", "upgrade": "Q43082620"}],
     "terfranchecomte-46b9eb": [{"date": "2017-01-01T00:00:00.000Z", "upgrade": "Q43082620"}],
     "termidipyrenees-46b9eb": [{"date": "2017-07-01T00:00:00.000Z", "upgrade": "Q37941081"}],

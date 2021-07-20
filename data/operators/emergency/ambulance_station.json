@@ -124,6 +124,15 @@
       }
     },
     {
+      "displayName": "Cruz Roja",
+      "id": "cruzroja-f76ab2",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "emergency": "ambulance_station",
+        "operator": "Cruz Roja"
+      }
+    },
+    {
       "displayName": "Cruz Roja Madrid.",
       "id": "cruzrojamadrid-6af48e",
       "locationSet": {"include": ["es"]},
@@ -230,6 +239,17 @@
         "operator": "East of England Ambulance Service",
         "operator:wikidata": "Q5329757",
         "operator:wikipedia": "en:East of England Ambulance Service"
+      }
+    },
+    {
+      "displayName": "Feuerwehr Hamburg",
+      "id": "feuerwehrhamburg-d077c2",
+      "locationSet": {"include": ["de"]},
+      "tags": {
+        "emergency": "ambulance_station",
+        "operator": "Feuerwehr Hamburg",
+        "operator:wikidata": "Q1409871",
+        "operator:wikipedia": "de:Feuerwehr Hamburg"
       }
     },
     {
@@ -360,7 +380,10 @@
       "locationSet": {
         "include": ["au-nsw.geojson"]
       },
-      "matchNames": ["new south wales ambulance"],
+      "matchNames": [
+        "ambulance service of nsw",
+        "new south wales ambulance"
+      ],
       "tags": {
         "emergency": "ambulance_station",
         "operator": "NSW Ambulance",

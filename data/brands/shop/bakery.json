@@ -36,6 +36,7 @@
       "tags": {
         "brand": "Ange",
         "brand:wikidata": "Q98383422",
+        "brand:wikipedia": "fr:Ange (boulangerie)",
         "name": "Boulangerie Ange",
         "shop": "bakery"
       }
@@ -92,6 +93,7 @@
       "locationSet": {"include": ["de"]},
       "tags": {
         "brand": "Bachmeier",
+        "brand:wikidata": "Q106823498",
         "name": "Bachmeier",
         "shop": "bakery"
       }
@@ -138,8 +140,13 @@
       "displayName": "Bäckerei Grimminger",
       "id": "backereigrimminger-3f448e",
       "locationSet": {"include": ["de"]},
+      "matchNames": [
+        "familienbäckerei grimminger",
+        "grimminger"
+      ],
       "tags": {
         "brand": "Bäckerei Grimminger",
+        "brand:wikidata": "Q106823533",
         "name": "Bäckerei Grimminger",
         "shop": "bakery"
       }
@@ -432,6 +439,7 @@
       "locationSet": {"include": ["de"]},
       "tags": {
         "brand": "Büsch",
+        "brand:wikidata": "Q106823554",
         "name": "Büsch",
         "shop": "bakery"
       }
@@ -555,6 +563,17 @@
       }
     },
     {
+      "displayName": "Döbbe",
+      "id": "dobbe-3f448e",
+      "locationSet": {"include": ["de"]},
+      "tags": {
+        "brand": "Döbbe",
+        "brand:wikidata": "Q107406829",
+        "name": "Döbbe",
+        "shop": "bakery"
+      }
+    },
+    {
       "displayName": "Dreißig",
       "id": "dreissig-3f448e",
       "locationSet": {"include": ["de"]},
@@ -667,6 +686,7 @@
       "locationSet": {"include": ["de"]},
       "tags": {
         "brand": "Goeken backen",
+        "brand:wikidata": "Q106823580",
         "name": "Goeken backen",
         "shop": "bakery"
       }
@@ -766,8 +786,10 @@
       "displayName": "Hosselmann",
       "id": "hosselmann-3f448e",
       "locationSet": {"include": ["de"]},
+      "matchNames": ["bäckerei hosselmann"],
       "tags": {
         "brand": "Hosselmann",
+        "brand:wikidata": "Q107203160",
         "name": "Hosselmann",
         "shop": "bakery"
       }
@@ -808,6 +830,19 @@
         "brand:wikidata": "Q16997024",
         "brand:wikipedia": "en:Insomnia Cookies",
         "name": "Insomnia Cookies",
+        "shop": "bakery"
+      }
+    },
+    {
+      "displayName": "İstanbul Halk Ekmek",
+      "id": "istanbulhalkekmek-a32269",
+      "locationSet": {"include": ["tr"]},
+      "matchNames": ["i̇he"],
+      "tags": {
+        "brand": "İstanbul Halk Ekmek",
+        "brand:wikidata": "Q6073041",
+        "brand:wikipedia": "tr:İstanbul Halk Ekmek",
+        "name": "İstanbul Halk Ekmek",
         "shop": "bakery"
       }
     },
@@ -993,15 +1028,15 @@
       }
     },
     {
-      "displayName": "Malzers Backstube",
-      "id": "malzersbackstube-3f448e",
+      "displayName": "Malzers",
+      "id": "malzers-3f448e",
       "locationSet": {"include": ["de"]},
-      "matchNames": ["malzers"],
+      "matchNames": ["malzers backstube"],
       "tags": {
-        "brand": "Malzers Backstube",
+        "brand": "Malzers",
         "brand:wikidata": "Q19278095",
         "brand:wikipedia": "de:Detlef Malzers Backstube",
-        "name": "Malzers Backstube",
+        "name": "Malzers",
         "shop": "bakery"
       }
     },
@@ -1122,6 +1157,16 @@
       "tags": {
         "brand": "Oebel",
         "name": "Oebel",
+        "shop": "bakery"
+      }
+    },
+    {
+      "displayName": "Oskroba",
+      "id": "oskroba-4f9c7f",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "brand": "Oskroba",
+        "name": "Oskroba",
         "shop": "bakery"
       }
     },
@@ -1516,6 +1561,20 @@
       }
     },
     {
+      "displayName": "Βενέτη",
+      "id": "veneti-ec42d9",
+      "locationSet": {"include": ["gr"]},
+      "tags": {
+        "alt_name": "Βενέτης",
+        "brand": "Βενέτη",
+        "brand:wikidata": "Q106776278",
+        "int_name": "Veneti",
+        "name": "Βενέτη",
+        "name:en": "Veneti",
+        "shop": "bakery"
+      }
+    },
+    {
       "displayName": "Булочная Ф. Вольчека",
       "id": "e9ca36-44faa4",
       "locationSet": {"include": ["ru"]},
@@ -1532,6 +1591,16 @@
       "tags": {
         "brand": "Булочные Ф. Вольчека",
         "name": "Булочные Ф. Вольчека",
+        "shop": "bakery"
+      }
+    },
+    {
+      "displayName": "Буханка",
+      "id": "bd6837-4f9c7f",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "brand": "Буханка",
+        "name": "Буханка",
         "shop": "bakery"
       }
     },

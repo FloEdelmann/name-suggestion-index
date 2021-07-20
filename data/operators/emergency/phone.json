@@ -17,6 +17,17 @@
       }
     },
     {
+      "displayName": "AB Triangulo do Sol",
+      "id": "abtriangulodosol-880fe0",
+      "locationSet": {"include": ["br"]},
+      "tags": {
+        "emergency": "phone",
+        "operator": "AB Triangulo do Sol",
+        "operator:wikidata": "Q3539764",
+        "operator:wikipedia": "pt:Triângulo do Sol"
+      }
+    },
+    {
       "displayName": "ARSSA",
       "id": "arssa-91d45d",
       "locationSet": {"include": ["ar"]},
@@ -31,7 +42,9 @@
       "locationSet": {"include": ["at"]},
       "tags": {
         "emergency": "phone",
-        "operator": "Asfinag"
+        "operator": "Asfinag",
+        "operator:wikidata": "Q297650",
+        "operator:wikipedia": "de:ASFINAG"
       }
     },
     {
@@ -160,6 +173,15 @@
       }
     },
     {
+      "displayName": "CSU, Chico Police Department",
+      "id": "csuchicopolicedepartment-d9e125",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "emergency": "phone",
+        "operator": "CSU, Chico Police Department"
+      }
+    },
+    {
       "displayName": "DDE",
       "id": "dde-6aca25",
       "locationSet": {"include": ["fx"]},
@@ -201,7 +223,9 @@
       "locationSet": {"include": ["de"]},
       "tags": {
         "emergency": "phone",
-        "operator": "Deutsche Bahn"
+        "operator": "Deutsche Bahn",
+        "operator:wikidata": "Q9322",
+        "operator:wikipedia": "de:Deutsche Bahn"
       }
     },
     {
@@ -211,7 +235,9 @@
       "matchNames": ["deutsche telekom"],
       "tags": {
         "emergency": "phone",
-        "operator": "Deutsche Telekom AG"
+        "operator": "Deutsche Telekom AG",
+        "operator:wikidata": "Q9396",
+        "operator:wikipedia": "de:Deutsche Telekom"
       }
     },
     {
@@ -494,7 +520,9 @@
       "locationSet": {"include": ["de"]},
       "tags": {
         "emergency": "phone",
-        "operator": "Stadtwerke Augsburg"
+        "operator": "Stadtwerke Augsburg",
+        "operator:wikidata": "Q2328426",
+        "operator:wikipedia": "de:Stadtwerke Augsburg"
       }
     },
     {
@@ -503,7 +531,9 @@
       "locationSet": {"include": ["se"]},
       "tags": {
         "emergency": "phone",
-        "operator": "Svenska Turistföreningen"
+        "operator": "Svenska Turistföreningen",
+        "operator:wikidata": "Q1492844",
+        "operator:wikipedia": "sv:Svenska Turistföreningen"
       }
     },
     {
@@ -528,7 +558,18 @@
       "locationSet": {"include": ["us"]},
       "tags": {
         "emergency": "phone",
-        "operator": "Transfort"
+        "operator": "Transfort",
+        "operator:wikidata": "Q7834201",
+        "operator:wikipedia": "en:Transfort"
+      }
+    },
+    {
+      "displayName": "Transport for NSW",
+      "id": "transportfornsw-e6a219",
+      "locationSet": {"include": ["au"]},
+      "tags": {
+        "emergency": "phone",
+        "operator": "Transport for NSW"
       }
     },
     {
@@ -537,7 +578,10 @@
       "locationSet": {"include": ["us"]},
       "tags": {
         "emergency": "phone",
-        "operator": "U.S Customs and Border Protection"
+        "operator": "U.S Customs and Border Protection",
+        "operator:short": "CBP",
+        "operator:wikidata": "Q368804",
+        "operator:wikipedia": "en:U.S. Customs and Border Protection"
       }
     },
     {
@@ -609,7 +653,20 @@
       "locationSet": {"include": ["de"]},
       "tags": {
         "emergency": "phone",
-        "operator": "ÜSTRA Hannoversche Verkehrsbetriebe AG"
+        "operator": "ÜSTRA Hannoversche Verkehrsbetriebe AG",
+        "operator:wikidata": "Q265625",
+        "operator:wikipedia": "de:Üstra Hannoversche Verkehrsbetriebe"
+      }
+    },
+    {
+      "displayName": "Vicente López Patrulla",
+      "id": "vicentelopezpatrulla-91d45d",
+      "locationSet": {"include": ["ar"]},
+      "tags": {
+        "emergency": "phone",
+        "operator": "Vicente López Patrulla",
+        "operator:wikidata": "Q97179385",
+        "operator:wikipedia": "es:Patrulla Vicente López"
       }
     },
     {
